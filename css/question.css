@@ -1,0 +1,24 @@
+.question { 
+background-color: #EF7F1A;
+padding: 46px 100px 60px 100px;
+
+}
+
+.question__title {
+color: white;
+margin-bottom: 50px;
+}
+
+.question__item {
+background-color: #EEEEF3;
+padding: 30px 19px;
+margin-bottom: 14px;
+}
+
+.question__item-title {
+list-style: none;
+}
+
+.question-colortext {
+color: #EF7F04;
+}

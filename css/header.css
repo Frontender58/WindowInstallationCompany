@@ -1,0 +1,67 @@
+.header {
+  padding: 17 px 0 px;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item {
+  margin-right: 40px;
+}
+
+.navigation__item-link {
+  text-decoration: none;
+  font-weight: 400px;
+}
+
+.navigation_orange {
+  text-decoration: none;
+  color: orange;
+}
+
+.button {
+  margin-right: 14px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: 13px;
+  color: white;
+}
+
+.button_orange {
+  display: inline-flex;
+  background-color: #ef7f04;
+  align-items: center;
+}
+
+.button-blue {
+  background-color: #3b3a63;
+  display: inline-flex;
+  align-items: center;
+}
+
+.button__icon {
+  margin-right: 12px;
+}
+
+.advantes-button__picture {
+  padding-right: 10px;
+}
+
+@media (max-width: 992px) {
+  .navigation__list {
+    display: none;
+  }
+}

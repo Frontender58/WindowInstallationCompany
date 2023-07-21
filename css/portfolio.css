@@ -1,0 +1,20 @@
+.portfolio {
+background-color: white;
+padding: 48px 0 70px 0;
+}
+
+.portfolio__title {
+margin-bottom: 48px;
+}
+
+.portfolio__list {
+display: flex;
+justify-content: center;
+gap: 0px 45px;
+}
+
+@media (max-width: 992px) {
+.portfolio__list-window {
+display: none;
+}
+}
